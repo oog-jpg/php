@@ -60,7 +60,7 @@ RedirectMatch /index([0-9]+)\.php /$1.php
 #RewriteRule .+ index.php
 
 #33
-#RewriteCond %{REQUEST_URI} !^/index\.php$
+#RewriteCond %{REQUEST_URI} !^/index_\.php$
 #RewriteRule (.+) index_.php?get=$1
 
 #35
